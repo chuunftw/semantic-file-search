@@ -12,19 +12,19 @@ For example, a user could search for “my notes about renewable energy” or �
 
 Planned Features
 
-Select which folders the app can access and index.
+- Select which folders the app can access and index.
 
-Search text, documents, and images using natural-language descriptions.
+- Search text, documents, and images using natural-language descriptions.
 
-Search by filename and keywords.
+- Search by filename and keywords.
 
-Display ranked results with file information and locations.
+- Display ranked results with file information and locations.
 
-Open results in their default Windows applications.
+- Open results in their default Windows applications.
 
-Update the index when files are added, changed, or removed.
+- Update the index when files are added, changed, or removed.
 
-Video search is outside the current scope, and GIF support is deferred.
+- Video search is outside the current scope, and GIF support is deferred.
 
 How It Works
 

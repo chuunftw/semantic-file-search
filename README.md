@@ -33,3 +33,14 @@ The app will scan supported files, extract searchable content, and use local AI 
 Privacy and Local Processing
 
 The app is designed to process files and queries locally, keep its index on the user’s computer, and access only user-approved folders while respecting Windows file permissions.
+
+## Planned Tech Stack
+
+- **Desktop app:** Tauri, React, and TypeScript.
+- **Search engine:** Python with a local FastAPI connection.
+- **Database:** LanceDB for vectors, searchable text, and file metadata.
+- **AI:** MiniLM for documents/code and CLIP for photos, running with PyTorch.
+- **File processing:** PyMuPDF, python-docx, python-pptx, and Pillow.
+- **Indexing:** tree-sitter for code splitting; watchdog plus a startup scan for file changes.
+- **Ranking:** compare RRF and combined scoring on the same test searches before choosing.
+- **Distribution:** Windows installer on GitHub Releases, with the engine and models bundled for offline use after installation.
